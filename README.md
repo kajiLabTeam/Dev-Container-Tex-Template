@@ -1,4 +1,4 @@
-# Devcontainer for LaTeX
+# Devcontainer for TeX
 
 VS Code Dev Containersの機能を用いて、LaTeX環境を容易に構築する
 
