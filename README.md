@@ -1,6 +1,7 @@
 # Devcontainer for LaTeX
 
 VS Code Dev Containersの機能を用いて、LaTeX環境を容易に構築する
+
 レジュメのテンプレートと卒論のテンプレートがあります
 
 参考記事
