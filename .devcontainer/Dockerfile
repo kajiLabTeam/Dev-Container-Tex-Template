@@ -25,10 +25,9 @@ RUN npm i -g \
     textlint-rule-prh \
     textlint-plugin-latex2e
 
-RUN apt-get clean
-RUN rm -rf /var/lib/apt/lists/*
-RUN tlmgr init-usertree
-RUN tlmgr install algorithms
+RUN apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
 RUN kanji-config-updmap-sys ipaex
 
 WORKDIR /workdir
